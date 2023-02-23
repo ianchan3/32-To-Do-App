@@ -1,0 +1,97 @@
+body {
+  background-color: #eee;
+}
+
+section {
+  width: 100%;
+  padding: 0 3rem;
+}
+
+.container {
+  max-width: 60rem;
+  margin: 5rem auto;
+}
+
+.add-item {
+  background-color: #9d0191;
+  padding: 5rem 0;
+  margin: 2rem auto;
+  border-radius: 10px;
+}
+
+.add-item form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-item form input {
+  padding: 1rem 1.5rem;
+  font-size: 1.8rem;
+  color: lightgray;
+  width: 75%;
+  border: none;
+  border-bottom: 1px solid rgba(255,255,255, 0.7);
+  outline: none;
+  background-color: transparent;
+  margin-right: 5px;
+}
+
+::placeholder {
+  color: rgba(255,255,255, 0.7);
+}
+
+form button {
+  width: 10%;
+  font-size: 1.6rem;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: orange;
+  color: lightgray;
+  padding: 1rem;
+}
+
+ol {
+  padding-inline-start: 0;
+}
+
+ol h2 {
+  font-size: 2rem;
+  color: orange;
+  margin-bottom: 1rem;
+}
+
+ol li {
+  font-size: 1.6rem;
+  margin: 5px 0;
+  background-color: lightgray;
+  border-radius: 5px;
+  padding: 1rem;
+  position: relative;
+}
+
+ol li:nth-child(odd) {
+  background-color: purple;
+  color: red;
+}
+
+li button {
+  font-size: 1.6rem;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  background-color: transparent;
+  outline: none; 
+  border: none;
+  color: red;
+}
+
+.clear {
+  background-color: orange;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-top: 1rem;
+  outline: none;
+  border: 2px solid black;
+  font-size: 1.6rem;
+}
